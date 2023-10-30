@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #A020F0;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 1.5rem;
+
+}
+
+.card {
+    background-color: #ffff;
+    outline: none;
+    border: none;
+    width: 600px;
+    color: #222831;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 20px 25px 15px;
+    border-radius: 10px;
+
+}
+
+.header {}
+
+.card h1 {
+    font-size: 20px;
+    text-align: left;
+    padding: 20px;
+}
+
+.card p {
+    padding: 20px;
+    text-align: left;
+}
+
+.card input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    margin-left: 0.5px;
+}
+
+button {
+    background-color: #31326f;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}

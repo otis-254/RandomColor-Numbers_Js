@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--dark-grey);
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    padding: 0 1.5rem;
+
+}
+
+.counter-app {
+    background-color: var(--light-blue);
+    color: white;
+    width: 40rem;
+    padding: 1rem;
+    border: 1px solid var(--grey);
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.counter-app>* {
+    margin-bottom: 20px;
+}
+
+.count {
+    font-size: 4rem;
+}
+
+.buttons button {
+    margin: 0 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    /* color: var(--white); */
+}
+
+button.Subtract {
+    background-color: #db6400;
+    color: #eee;
+}
+
+button.Reset {
+    background-color: white;
+    color: black;
+}
+
+button.Add {
+    background-color: green;
+    color: #eee;
+
+}
+
+/* button.Add:hover {
+  background-color: var(--grey);
+  color: #160101;
+  outline: green solid 1px;
+} */
+
+
+
+.sample {
+    justify-content: center;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 1.5em;
+    width: 90rem;
+    margin: auto;
+    /* height: 40vh; */
+}
+
+.sample p {
+    margin-top: 1rem;
+}
+
+.sample h1 {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.button-2 {
+    background-color: #db6400;
+    padding: 1rem;
+    cursor: pointer;
+    color: #eee;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+.pop-up {
+    width: 600px;
+    background-color: #fff;
+    border: 5px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    text-align: center;
+    color: #222831;
+    padding: 20px;
+    border-radius: 10px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+img {
+    width: 60px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px;
+}
+
+.pop-up button {
+    background-color: #db6400;
+    padding: 0 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.pop-up h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pop-up button {
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+}
