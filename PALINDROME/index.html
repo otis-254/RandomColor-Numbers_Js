@@ -10,21 +10,25 @@
 </head>
 
 <body>
-
-    <div class="card">
-        <div class="header">
-            <h1>This is a Palindrome Checker!</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciati.</p>
-            <div class="inputs">
-                <input type="text" placeholder="Enter anything ...">
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1>This is a Palindrome Checker!</h1>
+                <p>A palindrome is a word, number, phrase, or other sequence of symbols that reads the same backwards as
+                    forwards, such as madam or racecar.</p>
+                <div class="inputs">
+                    <input type="text" id="inputString" placeholder="Enter anything...">
+                </div>
+                <button onclick="checkPalindrome()">Check Palindrome</button>
+                <p id="result"></p>
             </div>
-            <button class="button">Check Palindrome</button>
         </div>
+
     </div>
 
     <!-- <p class="info-text">Yes, <span>"Borrow or rob"</span>is a Palindrome</p> -->
 
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

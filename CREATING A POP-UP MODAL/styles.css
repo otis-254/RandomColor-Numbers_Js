@@ -35,103 +35,50 @@ img {
     width: 100%;
 }
 
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 0 20px;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 100vh;
-    padding: 0 1.5rem;
-
-}
-
-.counter-app {
-    background-color: var(--light-blue);
-    color: white;
-    width: 40rem;
-    padding: 1rem;
-    border: 1px solid var(--grey);
-    text-align: center;
-    border-radius: 5px;
-
-}
-
-.counter-app>* {
-    margin-bottom: 20px;
-}
-
-.count {
-    font-size: 4rem;
-}
-
-.buttons button {
-    margin: 0 1rem;
-    padding: 1rem;
-    font-size: 1.5rem;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 700;
-    /* color: var(--white); */
-}
-
-button.Subtract {
-    background-color: #db6400;
-    color: #eee;
-}
-
-button.Reset {
-    background-color: white;
-    color: black;
-}
-
-button.Add {
-    background-color: green;
-    color: #eee;
-
-}
-
-/* button.Add:hover {
-  background-color: var(--grey);
-  color: #160101;
-  outline: green solid 1px;
-} */
-
-
-
 .sample {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    align-items: center;
+    padding: 50px;
     color: #fff;
     text-align: center;
     line-height: 1.5em;
     width: 90rem;
     margin: auto;
-    /* height: 40vh; */
+    height: 100vh;
 }
 
 .sample p {
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .sample h1 {
-    font-weight: 800;
+    font-weight: 500;
     font-size: 3rem;
 }
 
+.sample h1 span {
+    font-weight: 800;
+    color: #db6400;
+}
+
 .button-2 {
-    background-color: #db6400;
+    background-color: transparent;
     padding: 1rem;
     cursor: pointer;
     color: #eee;
-    outline: none;
-    border: none;
+    outline: white;
+    border: white solid 1px;
     margin-top: 30px;
     font-weight: 400;
     border-radius: 5px;
+}
+
+
+.button-2:hover {
+    background-color: #db6400;
+    transition: all .8s;
 }
 
 .pop-up {
@@ -144,16 +91,16 @@ button.Add {
     transform: translate(-50%, -50%) scale(0.2);
     text-align: center;
     color: #222831;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
     visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
+    transition: transform .8s, top 0.8s;
 }
 
 
 .open-popup {
     visibility: visible;
-    top: 50%;
+    top: 30%;
     transform: translate(-50%, -50%) scale(1);
 }
 
@@ -165,7 +112,7 @@ img {
 }
 
 .pop-up button {
-    background-color: #db6400;
+    background-color: green;
     padding: 0 20px;
     color: #fff;
     outline: none;
@@ -174,10 +121,13 @@ img {
 
 }
 
+
+
+
 .pop-up h2 {
     margin-top: 10px;
     font-size: 20px;
-    font-weight: 700;
+
 }
 
 .pop-up button {
@@ -187,5 +137,4 @@ img {
     border: none;
     outline: none;
     border-radius: 5px;
-
 }
